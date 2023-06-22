@@ -6,11 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('checkout source code') {
-            steps{
-                git url: "https://github.com/vinodhsukumarvictor/chaperootodo_client",branch: "master"
-            }
-        }
          
         stage('Build')   {
              steps {
